@@ -1,0 +1,30 @@
+<templateSet group="Java">
+  <template name="field" value="private $TYPE$ $NAME$ $END$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="while" value="while($ITER$)&#10;{&#10;  &#10;  $END$ ;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="ITER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="try" value="&#10;try&#10;{ &#10;  $SELECTION$&#10;} catch(Exception e) &#10;{&#10;  e.printStackTrace();&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="switch" value="switch ($END$)&#10;{&#10;&#9;case :&#10;&#9;&#9;&#10;&#9;&#9;break;&#10;&#10;&#9;default:&#10;&#9;&#9;break;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="log" value="private static final Logger LOGGER = LoggerFactory.getLogger(.class);" description="log4j" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

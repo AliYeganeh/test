@@ -1,0 +1,10 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://www.springframework.org/schema/integration/spring-integration-1.0.xsd" location="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2020.2/extResources/5e823d2d_spring-integration-1.0.xsd" />
+    <resource url="https://www.springframework.org/schema/integration/jdbc/spring-integration-jdbc.xsd" location="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2020.2/extResources/aabf0d6_spring-integration-jdbc.xsd" />
+    <resource url="https://www.springframework.org/schema/integration/jms/spring-integration-jms.xsd" location="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2020.2/extResources/1263e24c_spring-integration-jms.xsd" />
+    <resource url="https://www.springframework.org/schema/integration/jmx/spring-integration-jmx.xsd" location="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2020.2/extResources/c6bf7cac_spring-integration-jmx.xsd" />
+    <resource url="https://www.springframework.org/schema/integration/jpa/spring-integration-jpa.xsd" location="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2020.2/extResources/a3c1edec_spring-integration-jpa.xsd" />
+    <resource url="https://www.springframework.org/schema/integration/spring-integration-5.2.xsd" location="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2020.2/extResources/8a90ae96_spring-integration-5.2.xsd" />
+  </component>
+</application>
