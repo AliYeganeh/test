@@ -14,6 +14,10 @@
           <option name="url" value="http://gitlab.com" />
           <option name="userName" value="aliyeganehh" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.1.74" />
+          <option name="userName" value="a.yeganeh@jiring.ir" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Ali\Dropbox\My PC (Ali)\Desktop" />
